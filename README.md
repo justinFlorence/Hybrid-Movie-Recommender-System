@@ -1,7 +1,3 @@
-Certainly! Below is a comprehensive `README.md` script tailored for your GitHub repository. This README covers all essential aspects of your project, including how you've optimized your model by reducing sparsity and leveraging NCSU's High-Performance Computing (HPC) resources.
-
----
-
 # 🎬 Hybrid Movie Recommender System
 
 Welcome to the **Hybrid Movie Recommender System**, a sophisticated platform that provides personalized movie recommendations by leveraging both Collaborative Filtering (CF) and Content-Based Filtering (CBF) using a hybrid LightFM model. This project integrates a Streamlit web application for an interactive user experience and utilizes NCSU's High-Performance Computing (HPC) resources to handle computationally intensive tasks efficiently.
