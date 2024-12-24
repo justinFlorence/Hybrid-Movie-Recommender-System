@@ -1,0 +1,27 @@
+2024-12-22 22:24:15,977 - INFO - Starting the LightFM diagnostic script.
+2024-12-22 22:24:15,978 - INFO - Loading configuration from /share/blondin/jrfloren/movie-recommender/config.yml...
+2024-12-22 22:24:15,981 - INFO - Configuration loaded successfully.
+2024-12-22 22:24:15,981 - INFO - Validating configuration parameters...
+2024-12-22 22:24:15,981 - INFO - Configuration parameters are valid.
+2024-12-22 22:24:15,981 - INFO - Configuration Parameters: {'no_components': 30, 'learning_rate': 0.05, 'loss': 'warp', 'epochs': 30, 'num_threads': 16, 'item_features_path': '/share/blondin/jrfloren/movie-recommender/data/processed/item_features.npz'}
+2024-12-22 22:24:15,982 - INFO - Loading Interaction Matrix from /share/blondin/jrfloren/movie-recommender/data/processed/interaction_matrix.npz...
+2024-12-22 22:24:17,679 - INFO - Interaction Matrix loaded successfully.
+2024-12-22 22:24:17,679 - INFO - Interaction Matrix shape: (200948, 84432)
+2024-12-22 22:24:17,679 - INFO - Interaction Matrix non-zero entries (nnz): 32000204
+2024-12-22 22:24:17,679 - INFO - Interaction Matrix sparsity: 0.001886
+2024-12-22 22:24:17,679 - INFO - Loading Item Features from /share/blondin/jrfloren/movie-recommender/data/processed/item_features.npz...
+2024-12-22 22:24:21,662 - INFO - Item Features loaded successfully.
+2024-12-22 22:24:21,662 - INFO - Item Features shape: (84432, 1798)
+2024-12-22 22:24:21,662 - INFO - Item Features non-zero entries (nnz): 151808736
+2024-12-22 22:24:21,662 - INFO - Item Features sparsity: 1.000000
+2024-12-22 22:24:21,662 - INFO - Loading user and movie ID mappings...
+2024-12-22 22:24:23,339 - INFO - Loaded 200948 users and 84432 movies.
+2024-12-22 22:24:23,339 - INFO - Interaction matrix has 200948 users and 84432 items.
+2024-12-22 22:24:23,339 - INFO - Interaction matrix dimensions match the ID mappings.
+2024-12-22 22:24:23,339 - INFO - Running toy model training to verify LightFM functionality...
+2024-12-22 22:24:23,513 - INFO - Toy Model Precision@2: 0.6667
+2024-12-22 22:24:23,513 - INFO - Toy Model AUC Score: 0.6667
+2024-12-22 22:24:23,513 - INFO - Toy model training succeeded.
+2024-12-22 22:24:23,514 - INFO - Initializing LightFM model with actual configuration...
+2024-12-22 22:24:23,514 - INFO - LightFM model initialized successfully.
+2024-12-22 22:24:23,514 - INFO - Starting model training on actual data...

@@ -1,0 +1,23 @@
+imdb_datasets:
+  title_basics: 'data/raw/title.basics.tsv.gz'
+  title_ratings: 'data/raw/title.ratings.tsv.gz'
+  title_akas: 'data/raw/title.akas.tsv.gz'  # Optional
+  ratings_movies_imdb_merged: 'data/processed/ratings_movies_imdb_merged.csv'
+
+include_akas: false  # Set to true if you want to include alternative titles
+
+collaborative_filtering:
+  interaction_matrix_path: 'data/processed/interaction_matrix.npz'
+  model_path: 'data/processed/lightfm_model.joblib'
+  user_mapping: 'data/processed/user_mapping.csv'
+  movie_mapping: 'data/processed/movie_mapping.csv'
+  item_features_path: 'data/processed/item_features_reduced.npz'
+
+web_app:
+  title_to_index_path: 'data/processed/title_to_index.pkl'
+
+tmdb:
+  api_key: 'your_tmdb_api_key_here'  # Replace with your actual TMDb API key
+
+hybrid_recommendations:
+  output_path: 'data/processed/hybrid_recommendations.csv'
