@@ -332,30 +332,23 @@ GitHub: [https://github.com/justinflorence](https://github.com/justinflorence)
 # Additional Notes for the README
 
 1. **Replace Placeholders:**
-   - **Repository URL:** Update `https://github.com/your-username/hybrid-movie-recommender.git` with your actual GitHub repository URL.
-   - **GitHub Username:** Replace `your-username` with your actual GitHub username.
-   - **Contact Information:** Update the contact section with your actual details.
-   - **License:** Ensure you have a `LICENSE` file in your repository or adjust the license section accordingly.
+   - **Repository URL:**`https://github.com/your-username/Hybrid-Movie-Recommender-System.git'
+   - **GitHub Username:** justinFlorence
+   - **Contact Information:** jusflo2003@gmail.com
 
-2. **Scripts and File Paths:**
-   - Ensure that all file paths mentioned in the README (like `config.yml`, script locations, etc.) accurately reflect your repository structure.
-   - Verify that all scripts have appropriate permissions and are executable where necessary.
 
-3. **Environment Variables and Secrets:**
+2. **Environment Variables and Secrets:**
    - For security, especially concerning API keys, consider using environment variables or Streamlit's [Secrets Management](https://docs.streamlit.io/en/stable/cloud/deploy-streamlit-app.html#manage-secrets) feature instead of hardcoding them in `config.yml`.
 
-4. **Continuous Integration (CI):**
+3. **Continuous Integration (CI):**
    - Consider setting up CI pipelines (e.g., GitHub Actions) for automated testing, linting, and deployment to ensure code quality and streamline development workflows.
 
-5. **Deployment on Streamlit Cloud:**
+3. **Deployment on Streamlit Cloud:**
    - The README mentions deploying on Streamlit Cloud. Ensure you follow Streamlit's [deployment guidelines](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html) for a smooth deployment process.
 
-6. **Feedback Mechanism Enhancement:**
+4. **Feedback Mechanism Enhancement:**
    - While the current feedback mechanism logs user interactions, integrating real-time feedback analysis and model retraining could further enhance recommendation accuracy.
 
-7. **Data Privacy Compliance:**
+5. **Data Privacy Compliance:**
    - If your application collects user data, ensure compliance with relevant data privacy laws (e.g., GDPR, CCPA) and clearly state your data handling practices in the README or a separate privacy policy.
-
-8. **Future Enhancements Roadmap:**
-   - Consider adding a roadmap section or a `ROADMAP.md` file to outline future features and improvements, providing transparency and encouraging community contributions.
 
